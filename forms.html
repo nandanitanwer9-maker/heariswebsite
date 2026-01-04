@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in HTML</title>
+</head>
+<body>
+   <h2>Forms in HTMl:</h2> 
+   <form action="">
+   <label for="fname">first name:</label>
+   <input id="fname" type="text" minlength="5" maxlength="12" required />
+
+   <label for="mName">Middle name:</label>
+   <input id="mName" type="text" value="RK" />
+
+   <label for="lname">Last name:</label>
+   <input id="lname" type="text" disabled />
+
+   <br /><br />
+   <label for="">Age:</label>
+   <input type="number" />
+
+   <br /><br>
+    <label for="">Email:</label>
+    <input type="email" />
+
+    <br /><br />
+    <label for="">date for joining:</label>
+    <input type="date" />
+
+    <br /><br />
+    <label for="">password:</label>
+    <input type="password" />
+
+    <p>Enter your shirt size</p>
+    <input type="radio" name="shirtsize" />
+     <label for="">small</label>
+    <input type="radio" name="shirtsize" />
+     <label for="">medium</label>
+    <input type="radio" name="shirtsize" />
+     <label for="">large</label>
+
+     <br /><br />
+     <label for="color">please select the color for your shirt:</label>
+        <input type="color" id="color" />
+
+        <br /><br>
+        <label for="paymentoption">Please select your payment method:</label>
+        <select name="paymentopt" id="paymentoptionion">
+            <option value="creditcard">credit card</option>
+            <option value="debitcard">debit card</option>
+            <option value="upi">UPI</option>
+            <option value="netbanking">net banking</option>
+
+            <br /><br />
+            <label for="cmts">please provide you valuable feedback:</label>
+            <!-- <input type="text" />-->
+            <textarea name="cmt" id="cmts" rows="18" cols="100"></textarea>
+
+    </form>
+</body>
+</html>
